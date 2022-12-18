@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class Dropper : MonoBehaviour
 {
     public float fallSpeed = 10f;
     public Transform hole;
     public Transform ball;
-    public Score score;
+  
 
 
     private void Update()
@@ -18,7 +18,8 @@ public class Dropper : MonoBehaviour
         {
             ball.position = Vector3.zero;
 
-          
+            
+            
 
         }
 
@@ -30,7 +31,7 @@ public class Dropper : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
 
-            Debug.Log("Ahoj jsem tu");
+            
             
             other.gameObject.transform.position = hole.position;
             other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;

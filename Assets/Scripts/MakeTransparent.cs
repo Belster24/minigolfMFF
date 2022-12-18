@@ -19,7 +19,8 @@ public class MakeTransparent : MonoBehaviour
     private void Start()
     {
 
-        Camera = GameObject.Find("MainCamera").transform;
+        Camera = GameObject.FindWithTag("MainCamera").transform;
+        //Camera = GameObject.FindGameObjectsWithTag("MainCamera").transform;
 
         //Camera = UnityEngine.Camera.current.transform;
     }
@@ -46,7 +47,7 @@ public class MakeTransparent : MonoBehaviour
 
         float cameraPlayerDistance = Vector3.Magnitude(Camera.position - Ball.position);
 
-        //Debug.Log(cameraPlayerDistance);
+        
 
         Ray ray1_Forward = new Ray(Camera.position, Ball.position - Camera.position);
         Ray ray1_Backward = new Ray(Ball.position, Camera.position - Ball.position);
@@ -54,6 +55,7 @@ public class MakeTransparent : MonoBehaviour
         var hits1_Forward = Physics.RaycastAll(ray1_Forward, cameraPlayerDistance);
         var hits1_Backward = Physics.RaycastAll(ray1_Backward, cameraPlayerDistance);
 
+        
         
 
         foreach (var hit in hits1_Forward)

@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
 {
     public Transform Ball;
     public Text scoreText;
-    public int score;
+    private int score;
 
     void Start()
     {
@@ -28,7 +28,12 @@ public class Score : MonoBehaviour
 
         
 
-        scoreText.text = "Score: " + score;
+        scoreText.text = "Uder: " + score;
+
+        if(score >= 2)
+        {
+            scoreText.text = "Uderu: " + score;
+        }
 
         
     }
