@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Controler.cs" />
     <Compile Include="Assets\Scripts\MakeTransparent.cs" />
     <Compile Include="Assets\Scripts\ImInTheWay.cs" />
     <Compile Include="Assets\Scripts\Transparency.cs" />
-    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Dropper.cs" />
+    <Compile Include="Assets\Scripts\ResetBall.cs" />
+    <Compile Include="Assets\Scripts\BallController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />

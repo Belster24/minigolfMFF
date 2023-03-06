@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
 {
     public Transform Ball;
     public Text scoreText;
-    private int score;
+    public int score = 0;
 
     void Start()
     {
