@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,12 @@ public class Dropper : MonoBehaviour
     public Transform ball;
     private Score score;
 
+    public Levels[] levels;
 
+    private string namef;
+
+
+    
     private void Start()
     {
         score = FindObjectOfType<Score>();
@@ -27,7 +33,7 @@ public class Dropper : MonoBehaviour
 
 
 
-
+            
         }
 
     }
@@ -49,7 +55,22 @@ public class Dropper : MonoBehaviour
 
             FindObjectOfType<AudioManager>().Play("Ball_In_Hole");
 
+            
+            foreach (Levels l in levels)
+              {
+                if (l.name == "Level"+ SceneManager.GetActiveScene().buildIndex)
+               {
+                            l.lvlText.text = Convert.ToString(score.score);
+                            namef = l.lvlText.text;
+                }
+             }
+                    
+                
+
+
             score.score = 0;
+
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
