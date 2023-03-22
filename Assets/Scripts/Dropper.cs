@@ -17,7 +17,7 @@ public class Dropper : MonoBehaviour
         score = FindObjectOfType<Score>();
     }
 
-
+    //When the ball enters the hole, reset the ball to the starting position and set score to 0
     private void Update()
     {
 
@@ -47,6 +47,7 @@ public class Dropper : MonoBehaviour
             other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
             other.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
+            FindObjectOfType<AudioManager>().Play("Ball_In_Hole");
 
             score.score = 0;
         }

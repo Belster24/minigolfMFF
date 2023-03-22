@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ResetBall : MonoBehaviour
 {
+    //Restart the ball to the starting position
     public Vector3 lastBallPosition;
 
     private void OnCollisionEnter(Collision other)

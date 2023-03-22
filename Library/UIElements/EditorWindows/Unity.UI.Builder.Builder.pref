@@ -53,9 +53,6 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-local-styles-foldout__builder-inspector-style-section-foldout-border__builder-inspector-style-section-foldout-border-width__Unity.UI.Builder.FoldoutNumberField
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-local-styles-foldout__builder-inspector-style-section-foldout-border__builder-inspector-style-section-foldout-border-radius__Unity.UI.Builder.FoldoutNumberField
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-local-styles-foldout__builder-inspector-style-section-foldout-cursor__Unity.UI.Builder.PersistedFoldout
-  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__0__Unity.UI.Builder.PersistedFoldout
-  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__1__Unity.UI.Builder.PersistedFoldout
-  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__2__Unity.UI.Builder.PersistedFoldout
   m_Values:
   - '{"m_FixedPaneDimension":300.0}'
   - '{"m_FixedPaneDimension":450.0}'
@@ -65,7 +62,7 @@ MonoBehaviour:
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ElementInfoVisibilityState":0}'
-  - '{"m_ExpandedItemIds":[1,664525633,-150683659,686170706,-384205632]}'
+  - '{"m_ExpandedItemIds":[1,664525633,-150683659,686170706,-384205632,224040768,1294417106,354953752,-1300315784,2137262900]}'
   - '{"m_ScrollOffset":0.0,"m_ShowAlternatingRowBackgrounds":0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
@@ -76,14 +73,14 @@ MonoBehaviour:
   - '{"m_FixedPaneDimension":300.0}'
   - '{"m_FixedPaneDimension":20.0}'
   - '{"m_FixedPaneDimension":200.0}'
-  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":2,"m_CachedContentHeights":[1479.3333740234375,1372.0,1334.666748046875,1120.666748046875,1502.0],"m_CachedScrollPositions":[{"scrollPosition":501.3333740234375,"maxScrollValue":501.3333740234375},{"scrollPosition":394.0,"maxScrollValue":394.0},{"scrollPosition":356.666748046875,"maxScrollValue":356.666748046875},{"scrollPosition":142.666748046875,"maxScrollValue":142.666748046875},{"scrollPosition":524.0,"maxScrollValue":524.0}]}'
+  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":4,"m_CachedContentHeights":[1479.3333740234375,1372.0,1254.666748046875,1315.3333740234375,1502.0],"m_CachedScrollPositions":[{"scrollPosition":0.0,"maxScrollValue":501.3333740234375},{"scrollPosition":0.0,"maxScrollValue":394.0},{"scrollPosition":276.666748046875,"maxScrollValue":276.666748046875},{"scrollPosition":0.0,"maxScrollValue":337.33349609375},{"scrollPosition":524.0,"maxScrollValue":524.0}]}'
   - '{"m_Value":true}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
   - '{"m_Value":true}'
   - '{"m_Value":false}'
   - '{"m_Value":true}'
-  - '{"m_Value":false}'
+  - '{"m_Value":true}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
   - '{"m_Value":true,"fieldValues":[]}'
@@ -96,7 +93,4 @@ MonoBehaviour:
   - '{"m_Value":true,"fieldValues":[{"r":0.0,"g":0.0,"b":0.0,"a":255.0},{"r":0.0,"g":0.0,"b":0.0,"a":255.0},{"r":0.0,"g":0.0,"b":0.0,"a":255.0},{"r":0.0,"g":0.0,"b":0.0,"a":255.0}]}'
   - '{"m_Value":true,"fieldValues":[]}'
   - '{"m_Value":true,"fieldValues":[]}'
-  - '{"m_Value":false}'
-  - '{"m_Value":false}'
-  - '{"m_Value":false}'
   - '{"m_Value":false}'

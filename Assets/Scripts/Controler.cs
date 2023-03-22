@@ -26,7 +26,7 @@ public class Controler : MonoBehaviour
     void Update()
     {
         transform.position = rb.position;
-
+        //when button is clicked down get ready to aim
         if (Input.GetMouseButton(0))
         {
             xRot += Input.GetAxis("Mouse X") * rotationSpeed;
@@ -55,7 +55,7 @@ public class Controler : MonoBehaviour
         {
 
 
-            
+            FindObjectOfType<AudioManager>().Play("HitBall");
             rb.velocity = transform.forward * shootPower;
             numCollisions = 0;
             line.gameObject.SetActive(false);
@@ -63,7 +63,7 @@ public class Controler : MonoBehaviour
         }
 
         timeSinceDecrease += Time.deltaTime;
-
+        //decreasing the velocity and angular velocity of the ball
         if (timeSinceDecrease > decreaseInterval)
         {
             rb.velocity -= rb.velocity.normalized * velocityDecrease;
@@ -94,7 +94,7 @@ public class Controler : MonoBehaviour
         }
 
     }
-
+    //this will slower the ball to make it stop
     private void OnCollisionEnter(Collision collision)
     {
         numCollisions++;
