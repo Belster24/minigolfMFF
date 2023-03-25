@@ -55,6 +55,7 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-local-styles-foldout__builder-inspector-style-section-foldout-cursor__Unity.UI.Builder.PersistedFoldout
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__0__Unity.UI.Builder.PersistedFoldout
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__1__Unity.UI.Builder.PersistedFoldout
+  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__2__Unity.UI.Builder.PersistedFoldout
   m_Values:
   - '{"m_FixedPaneDimension":300.0}'
   - '{"m_FixedPaneDimension":450.0}'
@@ -64,18 +65,18 @@ MonoBehaviour:
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ElementInfoVisibilityState":0}'
-  - '{"m_ExpandedItemIds":[1,664525633,-150683659,686170706,-384205632,224040768,1294417106,354953752,-1300315784,2137262900,269871484,351151275,313590381,45154792,-451307946,2023271290]}'
+  - '{"m_ExpandedItemIds":[1,664525633,-150683659,686170706,-384205632,224040768,1294417106,354953752,-1300315784,2137262900,269871484,351151275,313590381,45154792,-451307946,2023271290,-515945897,554430441,1303400707,-1700231025,1078132726,-2146458232,-704279942,-1774656280,-1330641681,-260265343,1311480963,-1760052327,750923552,1821299890]}'
   - '{"m_ScrollOffset":0.0,"m_ShowAlternatingRowBackgrounds":0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ShowPackageTemplates":false,"m_ViewMode":0,"m_ActiveTab":0}'
-  - '{"m_SelectedItemId":-1479453942}'
+  - '{"m_SelectedItemId":-629249572}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_FixedPaneDimension":300.0}'
   - '{"m_FixedPaneDimension":20.0}'
   - '{"m_FixedPaneDimension":200.0}'
-  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":0,"m_CachedContentHeights":[1925.3333740234375,1387.3333740234375,1059.3333740234375,1166.666748046875,1494.666748046875],"m_CachedScrollPositions":[{"scrollPosition":947.3333740234375,"maxScrollValue":947.3333740234375},{"scrollPosition":409.33349609375,"maxScrollValue":409.33349609375},{"scrollPosition":81.3333740234375,"maxScrollValue":81.3333740234375},{"scrollPosition":188.666748046875,"maxScrollValue":188.666748046875},{"scrollPosition":0.0,"maxScrollValue":516.666748046875}]}'
+  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":1,"m_CachedContentHeights":[1494.666748046875,1474.0,1387.3333740234375,1495.3333740234375,1524.0],"m_CachedScrollPositions":[{"scrollPosition":0.0,"maxScrollValue":516.666748046875},{"scrollPosition":0.0,"maxScrollValue":496.0},{"scrollPosition":0.0,"maxScrollValue":409.33349609375},{"scrollPosition":517.3333740234375,"maxScrollValue":517.3333740234375},{"scrollPosition":0.0,"maxScrollValue":546.0}]}'
   - '{"m_Value":true}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
@@ -92,9 +93,10 @@ MonoBehaviour:
   - '{"m_Value":true}'
   - '{"m_Value":true,"fieldValues":[]}'
   - '{"m_Value":false}'
-  - '{"m_Value":true,"fieldValues":[{"r":0.0,"g":0.0,"b":0.0,"a":255.0},{"r":0.0,"g":0.0,"b":0.0,"a":255.0},{"r":0.0,"g":0.0,"b":0.0,"a":255.0},{"r":0.0,"g":0.0,"b":0.0,"a":255.0}]}'
+  - '{"m_Value":true,"fieldValues":[{"r":0.1882352977991104,"g":0.1882352977991104,"b":0.1882352977991104,"a":255.0},{"r":0.1882352977991104,"g":0.1882352977991104,"b":0.1882352977991104,"a":255.0},{"r":0.1882352977991104,"g":0.1882352977991104,"b":0.1882352977991104,"a":255.0},{"r":0.1411764770746231,"g":0.1411764770746231,"b":0.1411764770746231,"a":255.0}]}'
   - '{"m_Value":true,"fieldValues":[]}'
   - '{"m_Value":true,"fieldValues":[]}'
+  - '{"m_Value":false}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'

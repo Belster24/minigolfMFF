@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,13 +15,12 @@ public class Dropper : MonoBehaviour
 
     public Levels[] levels;
 
-    private string namef;
-
-
-    
+ 
     private void Start()
     {
         score = FindObjectOfType<Score>();
+
+        
     }
 
     //When the ball enters the hole, reset the ball to the starting position and set score to 0
@@ -30,15 +30,21 @@ public class Dropper : MonoBehaviour
         if (ball.position.y < -5f)
         {
             ball.position = Vector3.zero;
-
-
-
             
         }
 
-    }
 
     
+        levels[0].lvlText.text = PlayerPrefs.GetString("Score1");
+        levels[1].lvlText.text = PlayerPrefs.GetString("Score2");
+        levels[2].lvlText.text = PlayerPrefs.GetString("Score3");
+        levels[3].lvlText.text = PlayerPrefs.GetString("Score4");
+        levels[4].lvlText.text = PlayerPrefs.GetString("Score5");
+
+
+    }
+
+
     void OnTriggerEnter(Collider other)
     {
 
@@ -55,22 +61,44 @@ public class Dropper : MonoBehaviour
 
             FindObjectOfType<AudioManager>().Play("Ball_In_Hole");
 
-            
-            foreach (Levels l in levels)
-              {
-                if (l.name == "Level"+ SceneManager.GetActiveScene().buildIndex)
-               {
-                            l.lvlText.text = Convert.ToString(score.score);
-                            namef = l.lvlText.text;
-                }
-             }
-                    
+
+
+           
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                PlayerPrefs.SetString("Score1", Convert.ToString(score.score));
                 
+
+            }
+            else if(SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                PlayerPrefs.SetString("Score2", Convert.ToString(score.score));
+
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                PlayerPrefs.SetString("Score3", Convert.ToString(score.score));
+
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 4)
+            {
+                PlayerPrefs.SetString("Score4", Convert.ToString(score.score));
+
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 5)
+            {
+                PlayerPrefs.SetString("Score5", Convert.ToString(score.score));
+
+            }
+
 
 
             score.score = 0;
 
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
+    
+    
+

@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+  
 
     // Update is called once per frame
     void Update()
@@ -24,11 +25,14 @@ public class PauseMenu : MonoBehaviour
             }
         }
 
+        
 
     }
      
     public void Resume()
     {
+        GameObject.Find("ScoreText").GetComponent<Score>().enabled = true;
+        GameObject.FindWithTag("CameraControler").GetComponent<Controler>().enabled = true;
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
@@ -37,12 +41,20 @@ public class PauseMenu : MonoBehaviour
 
     public void Pause()
     {
+        GameObject.Find("ScoreText").GetComponent<Score>().enabled = false;
+        GameObject.FindWithTag("CameraControler").GetComponent<Controler>().enabled = false;
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        
 
 
+
+    }
+    
+    public void Save()
+    {
+        Debug.Log("Saved");
+        PlayerPrefs.SetInt("SavedScene", SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Menu()

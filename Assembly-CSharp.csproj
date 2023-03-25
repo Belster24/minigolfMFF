@@ -57,17 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Sound\Sound.cs" />
+    <Compile Include="Assets\Scripts\Levels.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Sound\AudioManager.cs" />
     <Compile Include="Assets\Scripts\BallController.cs" />
     <Compile Include="Assets\Scripts\ResetBall.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Controler.cs" />
     <Compile Include="Assets\Scripts\MakeTransparent.cs" />
     <Compile Include="Assets\Scripts\ImInTheWay.cs" />
     <Compile Include="Assets\Scripts\Transparency.cs" />
     <Compile Include="Assets\Scripts\Dropper.cs" />
-    <Compile Include="Assets\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\Levels.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI Toolkit\PauseMenu\PauseMenu.uxml" />
@@ -644,8 +644,14 @@
     <Reference Include="UnityEngine.TextCoreTextEngineModule">
       <HintPath>Library\ScriptAssemblies\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
