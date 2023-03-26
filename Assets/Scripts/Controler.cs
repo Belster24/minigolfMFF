@@ -12,7 +12,7 @@ public class Controler : MonoBehaviour
 
     private float shootPower = 30f;
     private float holdTime = 0f;
-    private float maxHoldTime = 3f;
+    //private float maxHoldTime = 3f;
 
     public LineRenderer line;
 

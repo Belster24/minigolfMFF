@@ -30,7 +30,8 @@ public class Dropper : MonoBehaviour
         if (ball.position.y < -5f)
         {
             ball.position = Vector3.zero;
-            
+            ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+
         }
 
 

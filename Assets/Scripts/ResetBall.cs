@@ -13,6 +13,8 @@ public class ResetBall : MonoBehaviour
         if (other.gameObject.CompareTag("Ball"))
         {
             lastBallPosition = other.gameObject.transform.position;
+            other.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            
         }
     }
 
@@ -22,6 +24,8 @@ public class ResetBall : MonoBehaviour
         if (ball != null)
         {
             ball.transform.position = lastBallPosition;
+
+           ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
     }
 }

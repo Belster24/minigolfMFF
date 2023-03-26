@@ -17,7 +17,7 @@ public class settingMenu : MonoBehaviour
 
     private UIDocument root;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         root = GetComponent<UIDocument>();
 
@@ -30,7 +30,7 @@ public class settingMenu : MonoBehaviour
         backButton.clicked += BackButtonClicked;
 
        
-
+        
 
     }
     

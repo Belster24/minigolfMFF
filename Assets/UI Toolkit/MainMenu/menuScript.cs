@@ -21,18 +21,17 @@ public class menuScript : MonoBehaviour
     public Button noButton;
     public Button quitButton;
 
-    private UIDocument root;
-    // Start is called before the first frame update
-    private void Awake()
-    {
-        root = GetComponent<UIDocument>();
+    //private UIDocument root;
 
-        startButton = root.rootVisualElement.Q<Button>("start-button");
-        optionButton = root.rootVisualElement.Q<Button>("options-button");
-        loadButton = root.rootVisualElement.Q<Button>("load-button");
-        yesButton = root.rootVisualElement.Q<Button>("ano-button");
-        noButton = root.rootVisualElement.Q<Button>("ne-button");
-        quitButton = root.rootVisualElement.Q<Button>("quit-button");
+    // Start is called before the first frame update
+    private void Start()
+    {
+        //root = GetComponent<UIDocument>();
+
+        startButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("start-button");
+        optionButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("options-button");
+        loadButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("load-button");
+        quitButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("quit-button");
 
         startButton.clicked += StartButtonClicked;
 
@@ -46,13 +45,12 @@ public class menuScript : MonoBehaviour
 
     private void OnEnable()
     {
-        root = GetComponent<UIDocument>();
+        //root = GetComponent<UIDocument>();
 
-        startButton = root.rootVisualElement.Q<Button>("start-button");
-        optionButton = root.rootVisualElement.Q<Button>("options-button");
-        loadButton = root.rootVisualElement.Q<Button>("load-button");
-        yesButton = root.rootVisualElement.Q<Button>("ano-button");
-        noButton = root.rootVisualElement.Q<Button>("ne-button");
+        startButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("start-button");
+        optionButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("options-button");
+        loadButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("load-button");
+        quitButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("quit-button");
 
         startButton.clicked += StartButtonClicked;
 
@@ -60,8 +58,8 @@ public class menuScript : MonoBehaviour
 
         loadButton.clicked += LoadClicked;
 
-        
 
+        quitButton.clicked += QuitClicked;
     }
 
     void StartButtonClicked()

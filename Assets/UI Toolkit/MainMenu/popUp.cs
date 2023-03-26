@@ -15,17 +15,18 @@ public class popUp : MonoBehaviour
     public Button noButton;
 
 
-    private UIDocument root;
+    //private UIDocument root;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        root = GetComponent<UIDocument>();
+        //root = GetComponent<UIDocument>();
 
+       
 
 
        
-        yesButton = root.rootVisualElement.Q<Button>("ano-button");
-        noButton = root.rootVisualElement.Q<Button>("ne-button");
+        yesButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("ano-button");
+        noButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("ne-button");
 
 
         noButton.clicked += NoButtonClicked;
@@ -38,10 +39,10 @@ public class popUp : MonoBehaviour
     private void OnEnable()
     {
 
-        root = GetComponent<UIDocument>();
+        //root = GetComponent<UIDocument>();
 
-        yesButton = root.rootVisualElement.Q<Button>("ano-button");
-        noButton = root.rootVisualElement.Q<Button>("ne-button");
+        yesButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("ano-button");
+        noButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("ne-button");
 
         noButton.clicked += NoButtonClicked;
         yesButton.clicked += YesButtonClicked;
@@ -59,7 +60,16 @@ public class popUp : MonoBehaviour
     {
         
        PlayerPrefs.DeleteAll();
-       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        PlayerPrefs.SetString("Score1", "0");
+    
+        PlayerPrefs.SetString("Score2", "0");
+        PlayerPrefs.SetString("Score3", "0");
+         PlayerPrefs.SetString("Score4", "0");
+        PlayerPrefs.SetString("Score5", "0");
+   
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 
