@@ -64,10 +64,8 @@
     <Compile Include="Assets\Scripts\ResetBall.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Controler.cs" />
-    <Compile Include="Assets\Scripts\MakeTransparent.cs" />
-    <Compile Include="Assets\Scripts\ImInTheWay.cs" />
-    <Compile Include="Assets\Scripts\Transparency.cs" />
     <Compile Include="Assets\Scripts\Dropper.cs" />
+    <Compile Include="Assets\Scripts\Obstruct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI Toolkit\PauseMenu\PauseMenu.uxml" />
