@@ -11,49 +11,35 @@
         "m_CodePreviewVisible": true,
         "m_OpenUXMLFiles": [
             {
-                "m_OpenUSSFiles": [
-                    {
-                        "m_StyleSheet": {
-                            "fileID": 7433441132597879392,
-                            "guid": "f138d3ed56d0655438927873eb66f9c7",
-                            "type": 3
-                        },
-                        "m_BackupStyleSheet": {
-                            "instanceID": 0
-                        },
-                        "m_OldPath": "Assets/UI Toolkit/MainMenu/style/button-style.uss"
-                    }
-                ],
+                "m_OpenUSSFiles": [],
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/MainMenu/MainMenu.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/MainMenu/OptionsMenu.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "7bfc4749e14c2ba41a27e6c79362b44a",
+                    "guid": "6a99be8bec61aac42a5445d475fda3cc",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
-                    "fileID": 7433441132597879392,
-                    "guid": "f138d3ed56d0655438927873eb66f9c7",
-                    "type": 3
+                    "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "7bfc4749e14c2ba41a27e6c79362b44a",
-                    "UxmlPath": "Assets/UI Toolkit/MainMenu/MainMenu.uxml",
+                    "UxmlGuid": "6a99be8bec61aac42a5445d475fda3cc",
+                    "UxmlPath": "Assets/UI Toolkit/MainMenu/OptionsMenu.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1920,
                     "CanvasHeight": 1080,
-                    "MatchGameView": false,
-                    "ZoomScale": 1.25,
+                    "MatchGameView": true,
+                    "ZoomScale": 1.5,
                     "PanOffset": {
-                        "x": -864.08349609375,
-                        "y": -97.416748046875
+                        "x": -954.400390625,
+                        "y": -321.60040283203127
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
-                    "CameraModeCanvasBackgroundOpacity": 1.0,
+                    "CameraModeCanvasBackgroundOpacity": 0.5,
                     "EnableCanvasBackground": true,
                     "CanvasBackgroundMode": 2,
                     "CanvasBackgroundColor": {

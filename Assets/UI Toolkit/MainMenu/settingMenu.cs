@@ -12,19 +12,19 @@ public class settingMenu : MonoBehaviour
     public GameObject start;
     public Button backButton;
     public Foldout foldout;
-    public Toggle toggle;
+    public Toggle fullwin;
 
 
     private UIDocument root;
     // Start is called before the first frame update
     void Start()
     {
-        root = GetComponent<UIDocument>();
+        //root = GetComponent<UIDocument>();
 
        
 
-        backButton = root.rootVisualElement.Q<Button>("back-button");
-        toggle = root.rootVisualElement.Q<Toggle>("fullscreen");
+        backButton = GetComponent<UIDocument>().rootVisualElement.Q<Button>("back-button");
+        fullwin = GetComponent<UIDocument>().rootVisualElement.Q<Toggle>("fullscreen");
 
         
         backButton.clicked += BackButtonClicked;
