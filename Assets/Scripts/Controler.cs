@@ -55,7 +55,7 @@ public class Controler : MonoBehaviour
         {
 
 
-            FindObjectOfType<AudioManager>().Play("HitBall");
+            FindObjectOfType<AudioManager>().Play("BallHit");
             rb.velocity = transform.forward * shootPower;
             numCollisions = 0;
             line.gameObject.SetActive(false);

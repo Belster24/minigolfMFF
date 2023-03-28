@@ -64,9 +64,10 @@
     <Compile Include="Assets\Scripts\ResetBall.cs" />
     <Compile Include="Assets\Scripts\Obstruct.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\PisekSlowerer.cs" />
     <Compile Include="Assets\Scripts\Controler.cs" />
     <Compile Include="Assets\Scripts\Dropper.cs" />
-    <Compile Include="Assets\Scripts\PisekSlowerer.cs" />
+    <Compile Include="Assets\Scripts\EndFiller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI Toolkit\PauseMenu\PauseMenu.uxml" />
