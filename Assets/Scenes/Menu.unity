@@ -1218,6 +1218,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348128576}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &359954453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359954455}
+  - component: {fileID: 359954454}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &359954454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359954453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c56cd86629b8f4da3bb526984f67d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - name: Ball_In_Hole
+    clip: {fileID: 8300000, guid: fe8a4e0bc0a32524cb0d2490bc827f17, type: 3}
+    volume: 0.494
+    pitch: 0.71
+    loop: 0
+    source: {fileID: 0}
+  - name: HitBall
+    clip: {fileID: 8300000, guid: 7732169119be1164d88c9f7cfe53f9f7, type: 3}
+    volume: 0.554
+    pitch: 0.71
+    loop: 0
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: bee115224c27e5549a46865ae8df099a, type: 3}
+    volume: 0.595
+    pitch: 0.71
+    loop: 1
+    source: {fileID: 0}
+  - name: BallHit
+    clip: {fileID: 8300000, guid: 031242fe3bda48640b30a345f761a4e2, type: 3}
+    volume: 0.613
+    pitch: 0.71
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &359954455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359954453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382747281
 GameObject:
   m_ObjectHideFlags: 0

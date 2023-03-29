@@ -3,8 +3,8 @@
     "UxmlPath": "Assets/UI Toolkit/MainMenu/PopUp.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 1920,
-    "CanvasHeight": 1080,
+    "CanvasWidth": 1280,
+    "CanvasHeight": 720,
     "MatchGameView": true,
     "ZoomScale": 0.25,
     "PanOffset": {

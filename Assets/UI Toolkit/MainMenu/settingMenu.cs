@@ -35,17 +35,26 @@ public class settingMenu : MonoBehaviour
         fullwin = GetComponent<UIDocument>().rootVisualElement.Q<Toggle>("fullscreen");
         hdres = GetComponent<UIDocument>().rootVisualElement.Q<Button>("hd-res");
         fhdres = GetComponent<UIDocument>().rootVisualElement.Q<Button>("fhd-res");
-
+        foldout = GetComponent<UIDocument>().rootVisualElement.Q<Foldout>("resolution-button");
 
       
 
         backButton.clicked += BackButtonClicked;
 
         vol.value = AudioListener.volume;
-       
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
 
 
-    }
+            fullwin.visible = false;
+            foldout.visible = false;
+        
+        }
+
+
+
+        }
 
     private void OnEnable()
     {
@@ -58,10 +67,19 @@ public class settingMenu : MonoBehaviour
         fhdres = GetComponent<UIDocument>().rootVisualElement.Q<Button>("fhd-res");
         vol = GetComponent<UIDocument>().rootVisualElement.Q<Slider>("volume-slider");
 
+       
+
         vol.value = AudioListener.volume;
         backButton.clicked += BackButtonClicked;
 
-        
+        if (Application.platform == RuntimePlatform.Android)
+        {
+
+
+            fullwin.visible = false;
+            foldout.visible = false;
+
+        }
 
     }
      void Update()
@@ -97,7 +115,7 @@ public class settingMenu : MonoBehaviour
     {
         if (fullwin.value == true)
         {
-            
+           
             Screen.fullScreen = true;
 
         }

@@ -62,10 +62,9 @@ public class popUp : MonoBehaviour
        PlayerPrefs.DeleteAll();
 
         PlayerPrefs.SetString("Score1", "0");
-    
         PlayerPrefs.SetString("Score2", "0");
         PlayerPrefs.SetString("Score3", "0");
-         PlayerPrefs.SetString("Score4", "0");
+        PlayerPrefs.SetString("Score4", "0");
         PlayerPrefs.SetString("Score5", "0");
    
         

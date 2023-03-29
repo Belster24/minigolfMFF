@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765607160}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 572a7fe9535363849ba35ca7b7d71c83, type: 3}
   m_Name: 
@@ -2277,7 +2277,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874375912}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 361612a3785d18f4fb4c866c9c68d6fd, type: 3}
   m_Name: 
@@ -2341,7 +2341,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877303975}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0b227f0c199b0f4ab32356817c183f7, type: 3}
   m_Name: 
@@ -2351,15 +2351,15 @@ MonoBehaviour:
   ball: {fileID: 0}
   levels:
   - name: Level1
-    lvlText: {fileID: 1022492944}
+    lvlText: {fileID: 0}
   - name: Level2
-    lvlText: {fileID: 258527139}
+    lvlText: {fileID: 0}
   - name: Level3
-    lvlText: {fileID: 1243946076}
+    lvlText: {fileID: 0}
   - name: Level4
-    lvlText: {fileID: 811729139}
+    lvlText: {fileID: 0}
   - name: Level5
-    lvlText: {fileID: 1089786818}
+    lvlText: {fileID: 0}
 --- !u!136 &877303978
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2900,6 +2900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1600523227}
+  button: {fileID: 0}
 --- !u!114 &1200059977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2929,11 +2930,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -2974,7 +2975,7 @@ RectTransform:
   m_Children:
   - {fileID: 1600523230}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4546,7 +4547,7 @@ Transform:
   - {fileID: 1088074208}
   - {fileID: 140492533}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1831960891
 GameObject:
