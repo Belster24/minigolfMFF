@@ -17,9 +17,6 @@ ScriptsOnlyBuild:
     - menuScript
     - popUp
     - settingMenu
-    Unity.DeviceSimulator.Editor.dll:
-    - UnityEditor.DeviceSimulation.DeviceInfoAsset
-    - UnityEditor.DeviceSimulation.SimulatorWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -1440,7 +1437,7 @@ ScriptsOnlyBuild:
     className: InputWrapper
   - hash:
       serializedVersion: 2
-      Hash: a24c9b24247aa9e2fd95a0b265bf6d84
+      Hash: 8aa096eb793556cc6c0bec71b72793bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Controler
@@ -1573,4 +1570,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 4.unity
   - Assets/Scenes/Level 5.unity
   - Assets/Scenes/End.unity
-  playerPath: C:/programming/unity/build/minigolf/pc_final/minigolf.exe
+  playerPath: C:/programming/unity/build/minigolf/pc/minigolf.exe
