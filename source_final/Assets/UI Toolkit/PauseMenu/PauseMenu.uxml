@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 723px; align-items: center; width: 2404px;">
+        <ui:VisualElement style="max-width: none; -unity-background-image-tint-color: rgb(72, 46, 46); background-color: rgba(106, 106, 106, 0.55);">
+            <ui:Label text="Pause Menu" display-tooltip-when-elided="true" style="font-size: 150px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 1420px; height: 341px; flex-direction: row; background-color: rgba(132, 117, 93, 0.85);">
+            <ui:Label text="Player" display-tooltip-when-elided="true" name="Player" style="align-items: flex-start; font-size: 70px;" />
+            <ui:Label text="Level 1" display-tooltip-when-elided="true" name="Level1" style="align-items: flex-start; font-size: 70px; background-color: rgba(142, 119, 114, 0.6);" />
+            <ui:Label text="Level 2" display-tooltip-when-elided="true" name="Level2" style="align-items: flex-start; font-size: 70px; -unity-text-outline-width: 0; -unity-slice-left: 0; -unity-background-image-tint-color: rgba(29, 22, 22, 255);" />
+            <ui:Label text="Level 3" display-tooltip-when-elided="true" name="Level3" style="align-items: flex-start; font-size: 70px; background-color: rgba(142, 120, 114, 255);" />
+            <ui:Label text="Level 4" display-tooltip-when-elided="true" name="Level4" style="align-items: flex-start; font-size: 70px;" />
+            <ui:Label text="Level 5" display-tooltip-when-elided="true" name="Level5" style="align-items: flex-start; font-size: 70px; background-color: rgba(142, 120, 114, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
