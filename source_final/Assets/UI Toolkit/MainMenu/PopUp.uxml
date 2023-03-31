@@ -1,9 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement style="opacity: 1; align-items: center; justify-content: center;">
-        <ui:VisualElement style="align-items: center; justify-content: center; height: 396px; width: 1104px; background-color: rgba(245, 245, 245, 255);">
-            <ui:Label text="Začít znova&#10;&#10;Smazat veškerý uložený obsah" display-tooltip-when-elided="true" style="font-size: 70px; color: rgba(0, 0, 0, 255); -unity-text-align: upper-center;" />
-            <ui:Button text="Ano" display-tooltip-when-elided="true" name="ano-button" style="-unity-text-align: middle-center; align-items: auto; font-size: 50px; right: auto; left: 20%;" />
-            <ui:Button text="Ne" display-tooltip-when-elided="true" name="ne-button" style="-unity-text-align: middle-center; align-items: auto; font-size: 50px; right: 20%; bottom: 70px;" />
-        </ui:VisualElement>
-    </ui:VisualElement>
-</ui:UXML>
