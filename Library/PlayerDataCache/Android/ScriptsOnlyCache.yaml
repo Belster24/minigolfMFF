@@ -200,7 +200,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 29190}
+      Script: {instanceID: 22732}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1568,4 +1568,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 4.unity
   - Assets/Scenes/Level 5.unity
   - Assets/Scenes/End.unity
-  playerPath: C:/programming/unity/build/minigolf/android/minigolf_final.apk
+  playerPath: C:/programming/unity/build/minigolf/android/minigolf_final_oprava.apk

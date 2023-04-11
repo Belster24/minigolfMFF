@@ -64,13 +64,15 @@ public class Controler : MonoBehaviour
 
                     transform.rotation = Quaternion.Euler(yRot, xRot, 0f);
 
-                    line.gameObject.SetActive(true);
-                    line.SetPosition(0, transform.position);
-                    line.SetPosition(1, transform.position + transform.forward * 4f);
+                    if (rb.velocity.magnitude < 1f)
+                    {
+                        line.gameObject.SetActive(true);
+                        line.SetPosition(0, transform.position);
+                        line.SetPosition(1, transform.position + transform.forward * 4f);
 
-                    holdTime += Time.deltaTime;
-                    shootPower = Mathf.Clamp(holdTime * 10f, 30f, 300f);
-
+                        holdTime += Time.deltaTime;
+                        shootPower = Mathf.Clamp(holdTime * 10f, 30f, 300f);
+                    }
                 }
 
                 if(touch.phase == TouchPhase.Ended && rb.velocity.magnitude < 1f)
@@ -104,13 +106,15 @@ public class Controler : MonoBehaviour
                 }
 
                 transform.rotation = Quaternion.Euler(yRot, xRot, 0f);
+                if (rb.velocity.magnitude < 1f)
+                {
+                    line.gameObject.SetActive(true);
+                    line.SetPosition(0, transform.position);
+                    line.SetPosition(1, transform.position + transform.forward * 4f);
 
-                line.gameObject.SetActive(true);
-                line.SetPosition(0, transform.position);
-                line.SetPosition(1, transform.position + transform.forward * 4f);
-
-                holdTime += Time.deltaTime;
-                shootPower = Mathf.Clamp(holdTime * 10f, 30f, 300f);
+                    holdTime += Time.deltaTime;
+                    shootPower = Mathf.Clamp(holdTime * 10f, 30f, 300f);
+                }
             }
 
             if (Input.GetMouseButtonUp(0) && rb.velocity.magnitude < 1f)
